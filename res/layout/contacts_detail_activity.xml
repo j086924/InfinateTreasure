@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/top_contacts_detail" />
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_2px"
+        />
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="17"
+         android:orientation="vertical"
+         android:gravity="center_horizontal"
+         >
+       <LinearLayout
+                  android:id="@+id/contacts_line1"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="4"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                   >
+                  <ImageView 
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/login_qq"
+                       />
+     </LinearLayout>
+     
+        <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_divider"
+        />
+     
+        <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="9"
+         android:orientation="vertical"
+         >
+                  
+          <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                >
+                
+              <LinearLayout 
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_gravity="center_vertical"
+                  android:gravity="center"
+                  >
+                  
+              <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_name_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_name" />
+               
+                <TextView
+                   android:id="@+id/contacts_name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_name_txt"
+                   android:text="林先生" />
+               
+           </RelativeLayout>
+           
+               <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_gender_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_gender" />
+               
+                <TextView
+                   android:id="@+id/contacts_gender"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_gender_txt"
+                   android:text="男" />
+               
+           </RelativeLayout>
+           
+                <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_age_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_age" />
+               
+                <TextView
+                   android:id="@+id/contacts_age"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_age_txt"
+                   android:text="21" />
+               
+           </RelativeLayout>
+                  
+                  
+              </LinearLayout>
+              
+                <View 
+               android:layout_width="1dp"
+               android:layout_height="match_parent"
+               android:background="@drawable/divider_vertical"
+               />
+              
+                <LinearLayout 
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_gravity="center_vertical"
+                  android:gravity="center"
+                  
+                  >
+                
+                    <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_province_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_province" />
+               
+                <TextView
+                   android:id="@+id/contacts_province"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_province_txt"
+                   android:text="广东" />
+               
+           </RelativeLayout>
+           
+               <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_city_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_city" />
+               
+                <TextView
+                   android:id="@+id/contacts_city"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_city_txt"
+                   android:text="深圳" />
+               
+           </RelativeLayout>
+           
+                <RelativeLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/layout_margin"
+               android:layout_marginLeft="@dimen/layout_margin"
+               >
+               <TextView
+                   android:id="@+id/contacts_phone_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_phone" />
+               
+                <TextView
+                   android:id="@+id/contacts_phone"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@+id/contacts_phone_txt"
+                   android:text="15814454314" />
+               
+           </RelativeLayout>
+                    
+         </LinearLayout>
+              
+      </LinearLayout>
+         
+       <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_divider"
+        />
+     
+         <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                >
+                
+             <include layout="@layout/contacts_qq"/>
+             <include layout="@layout/contacts_email"/>
+             <include layout="@layout/contacts_profession"/>
+             <include layout="@layout/contacts_company"/>
+             <include layout="@layout/contacts_company_addr"/>
+             <include layout="@layout/contacts_master_tag"/>
+         
+         </LinearLayout>
+     </LinearLayout>
+     
+         <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_divider"
+        />
+     
+          <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="2"
+         android:orientation="horizontal"
+         android:layout_gravity="center_vertical"
+         >
+         
+           <RelativeLayout 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:layout_gravity="center_vertical"
+               >
+               
+               <TextView
+                   android:id="@+id/contacts_score_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                   android:text="@string/contacts_credit" />
+               
+               <TextView
+                   android:id="@+id/contacts_score_data"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:layout_below="@+id/contacts_score_txt"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="@color/fans_orange"
+                   android:text="60" />
+
+           </RelativeLayout>
+
+          
+
+           <View 
+               android:layout_width="1dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/divider_vertical"
+               />
+
+         <RelativeLayout 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:layout_gravity="center_vertical"
+               >
+               
+               <TextView
+                   android:id="@+id/contacts_release_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                   android:text="@string/contacts_release_pro" />
+               
+                <TextView
+                   android:id="@+id/contacts_release_data"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:layout_below="@+id/contacts_release_txt"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="@color/fans_orange"
+                   android:text="10" />
+               
+           </RelativeLayout>
+           
+           <View 
+               android:layout_width="1dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/divider_vertical"
+               />
+           
+           <RelativeLayout 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:layout_gravity="center_vertical"
+               >
+               
+               <TextView
+                   android:id="@+id/contacts_order_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                   android:text="@string/contacts_order_pro" />
+               
+                <TextView
+                   android:id="@+id/contacts_order_data"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:layout_below="@+id/contacts_order_txt"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="@color/fans_orange"
+                   android:text="6" />
+           </RelativeLayout>
+           
+             <View 
+               android:layout_width="1dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/divider_vertical"
+               />
+           
+             <RelativeLayout 
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:layout_gravity="center_vertical"
+               >
+               
+               <TextView
+                   android:id="@+id/contacts_work_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                   android:text="@string/contacts_work_age" />
+               
+                <TextView
+                   android:id="@+id/contacts_work_age"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="5dp"
+                   android:layout_below="@+id/contacts_work_txt"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="@color/fans_orange"
+                   android:text="5" />
+           </RelativeLayout>
+         
+     </LinearLayout>
+     
+           <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/login_divider"
+        />
+     
+       <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="2"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+         android:orientation="horizontal"
+         >
+          <TextView
+                   android:id="@+id/contacts_brief_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/contacts_brief" />
+     </LinearLayout>
+       
+   </LinearLayout>
+
+</LinearLayout>

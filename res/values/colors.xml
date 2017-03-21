@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- theme -->
+    <color name="all_pages_background">#eeeeee</color>
+    <color name="actionbar_bg">#4b4ae9</color>
+    <color name="actionbar_txt_white">#FFFFFF</color>
+    <color name="repost_bgcolor">#acd6ff</color>
+    <color name="fans_orange">#eb9e71</color>
+    <color name="fans_red">#e94b4a</color>
+    <color name="fans_yellow">#fccb56</color>
+    <color name="fans_gray">#C2C0C0</color>
+    <color name="loading_text_color">#ff666666</color>
+    <color name="transparent75">#3d3d3d</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="red_selected">#ea3730</color>
+    <color name="red_unselected">#ea5749</color>
+    <color name="red_unable">#f4a58d</color>
+
+    <color name="my_black_line">#ebece9</color>
+    
+    <!-- text color -->
+    <color name="new_project_num_color">#ff0000</color>
+    <color name="new_institution_num_color">#0000ff</color>
+    <color name="refresh_text">#000000</color>
+    <color name="register_code_color">#2a2ae9</color>
+    <color name="register_code_color_gray">#999999</color>
+
+    
+</resources>

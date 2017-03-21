@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/top_circle" />
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_2px"
+        />
+    
+         <cn.infinate.treasure.view.CustomListView
+        android:id="@+id/circle_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        </cn.infinate.treasure.view.CustomListView>
+
+</LinearLayout>

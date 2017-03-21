@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_title_height"
+    android:background="@color/actionbar_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/contacts_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tab_contacts"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/layout_margin"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:src="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/tab_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/tab_contacts_string"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

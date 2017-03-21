@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">积人脉</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="phone_string">手机号</string>
+    <string name="login_pwd_string">登录密码</string>
+    <string name="login_string">登录</string>
+    <string name="register_string">注册</string>
+    <string name="register_tips_string">没有账号？立即注册！</string>
+    <string name="enter_login_string">进入登录界面</string>
+    <string name="forget_pwd_string">忘记密码</string>
+    <string name="register_finish">完成注册</string>
+    <string name="register_common_user">我是普通用户</string>
+    <string name="register_finance_user">我是金融从业人员</string>
+    <string name="register_upload_card">上传名片</string>
+    <string name="register_choice_industry">选择行业</string>
+    <string name="register_province">省份</string>
+    <string name="register_city">城市</string>
+    <string name="register_next">下一步</string>
+    <string name="register_indentify">手机验证</string>
+    <string name="register_phone">手机号:</string>
+    <string name="register_phone_input">请输入手机号</string>
+    <string name="register_code_input">请输入验证码</string>
+    <string name="register_verify_code">验证码:</string>
+    <string name="register_obtain_code">获取验证码</string>
+    <string name="register_code_tips">s后可重新进行获取验证码</string>
+    <string name="register_error_phone_tips">手机号码不能为空</string>
+    <string name="register_error_code_tips">请填写正确的验证码</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="reset_pwd_hint">请重新设置登录密码</string>
+    <string name="register_pwd_rule">密码规则</string>
+    <string name="register_confirm">确定</string>
+    <string name="register_agree">同意人脉通</string>
+    <string name="register_protocol">《用户协议》</string>
+    <string name="register_nickname">昵称</string>
+    <string name="register_set_pwd">设置密码</string>
+    <string name="register_set_pwd_again">请再次输入密码</string>
+    <string name="register_detail_industry">从业机构详细名称</string>
+    <string name="register_profession">职业</string>
+    
+    <string name="new_add_institution_num">新增机构数</string>
+    <string name="new_add_project_num">新增项目数</string>
+    <string name="recommend">推荐</string>
+    <string name="more">更多</string>
+    <string name="circle">圈子</string>
+    <string name="article">文章</string>
+    <string name="tab_homepage_string">首页</string>
+    <string name="tab_contacts_string">人脉</string>
+    <string name="tab_circle_string">圈子</string>
+    <string name="tab_project_string">项目</string>
+    <string name="tab_me_string">我的设置</string>
+    <string name="exit_tips">再点一次退出程序</string>
+    <string name="all_profession">全部行业</string>
+    <string name="all_area">全部区域</string>
+    <string name="all_status">全部状态</string>
+    
+    <!-- contacts detail -->
+    <string name="contacts_deatil_name">个人主页</string>
+    <string name="contacts_name">姓名:</string>
+    <string name="contacts_province">省份:</string>
+    <string name="contacts_gender">性别:</string>
+    <string name="contacts_city">城市:</string>
+    <string name="contacts_age">年龄:</string>
+    <string name="contacts_phone">手机:</string>
+    <string name="contacts_qq">QQ:</string>
+    <string name="contacts_email">邮箱:</string>
+    <string name="contacts_profession">职业:</string>
+    <string name="contacts_company">公司全称:</string>
+    <string name="contacts_company_addr">公司详细地址:</string>
+    <string name="contacts_master_tag">主营业务标签:</string>
+    <string name="contacts_credit">积分</string>
+    <string name="contacts_release_pro">发布项目数</string>
+    <string name="contacts_order_pro">接单个数</string>
+    <string name="contacts_work_age">从业年限</string>
+    <string name="contacts_brief">简介:</string>
+    
+    <!-- listview refresh -->
+    <string name="pull_refresh">下拉刷新...</string>
+    <string name="release_refresh">放开以刷新...</string>
+    <string name="refresh_doing_head_refresh">正在刷新...</string>
+    <string name="refresh_lasttime">最近更新</string>
+    <string name="refresh_head_load_more">加载更多</string>
+    <string name="refresh_end_load_more">更    多</string>
+    <string name="refresh_doing_end_refresh">加载中</string>
+    <string name="refresh_end_click_load_more">点击加载</string>
+    <string name="progress_loading_data">正在加载数据，请稍后</string>
+    
+    <!-- me settings -->
+    <string name="privacy_settings">隐私设置</string>
+    <string name="message_notification">消息通知</string>
+    <string name="update_version">更新版本</string>
+    <string name="fun_us">吐槽我们</string>
+    <string name="change_password">修改密码</string>
+    <string name="about_us">关于我们</string>
+    <string name="quit_login">退出登录</string>
+    
+    
+
+</resources>

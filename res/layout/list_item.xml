@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+    
+    <cn.infinate.treasure.view.RoundImageView 
+        android:id="@+id/list_img"
+        android:layout_width="@dimen/imageview_size"
+        android:layout_height="@dimen/imageview_size"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_toRightOf="@+id/list_img"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="11223423" />
+
+</RelativeLayout>

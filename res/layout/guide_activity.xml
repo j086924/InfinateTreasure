@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/point_move"
+            />
+        
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/point_move"
+            />
+         
+          <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/point_move"
+            />
+        
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_linear">
+
+       <Button
+           android:id="@+id/enter_login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginLeft="50dp"
+           android:background="@drawable/enter_login_btn"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="@string/login_string"
+           android:visibility="invisible"
+            />
+
+       <Button
+           android:id="@+id/enter_register"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginRight="50dp"
+           android:background="@drawable/enter_login_btn"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           android:text="@string/register_string" 
+           android:visibility="invisible"
+           />
+        
+        </RelativeLayout>
+    
+    <!-- 
+      <Button 
+        android:id="@+id/enter_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_linear"
+        android:text="@string/enter_login_string"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/enter_login_btn"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        /> -->
+
+
+</RelativeLayout>

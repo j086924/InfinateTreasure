@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="@dimen/layout_margin"
+  android:layout_marginLeft="@dimen/layout_margin">
+      <TextView
+          android:id="@+id/contacts_profession_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/contacts_profession" />
+               
+      <TextView
+          android:id="@+id/contacts_profession"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_toRightOf="@+id/contacts_profession_txt"
+          android:text="设计师" />
+
+</RelativeLayout>
